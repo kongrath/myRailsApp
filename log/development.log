@@ -1,0 +1,1251 @@
+
+
+Started GET "/main/index" for 127.0.0.1 at 2015-04-26 21:45:06 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"main/index"}
+  Rendered application/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 69ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:45:10 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:46:03 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1915ms (Views: 1914.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery/dist/jquery.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/assets/angular/angular.self-8ffda33ea6b6f0dee40d4c5dca6c5096b06bf120fc448aebb9b5d9f9d2cd9a55.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/assets/angular-rails-templates.self-0cb4b19debc640ed69cbcf42939a1289977dedf73a8d318f2db162b1f2834920.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/assets/ng-app/app.self-46a3667d12a15c55934618253cda3f989b5e9757c6bcb6effff0495924dbbb7c.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/assets/angular-animate/angular-animate.self-9aa382fa3f5dab775bb3b13b5ec46b2c1fcb9f4708433a3ed3dc547dfb378c8d.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-2215eb232f1e18b0a0c9b66db515908ff38159603f4bd9f09ae493eeccdb74b5.js?body=1" for 127.0.0.1 at 2015-04-26 21:46:05 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:48:23 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 545ms (Views: 544.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/controllers/home.self-c6f501119426abebdfc506bd9929abbd0538ce2622ff27d6c82253d5863673df.js?body=1" for 127.0.0.1 at 2015-04-26 21:48:23 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:51:47 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.6ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (47.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (118.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:56:10 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.0ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (93.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:56:12 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.7ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (45.0ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (97.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:57:35 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (41.6ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (91.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:57:37 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (95.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:57:52 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined mixin 'transition'.):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/_globals.scss:11:in `transition'
+  app/assets/stylesheets/ng-app/_globals.scss:11
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (102.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 21:58:29 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2512307638429509212_70301790906680'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (43.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:00:17 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 361ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1320598181437938488_70264386524140'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:00:49 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sass-officia/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1320598181437938488_70264386524140'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (43.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (95.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:00:51 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sass-officia/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1320598181437938488_70264386524140'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.6ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (44.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (98.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:01:02 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5889ms (Views: 5888.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fdf63bf82ebe12f5b9aa39c16a7e5a458f0d939b947a3799c9a1830c455ec413.css?body=1" for 127.0.0.1 at 2015-04-26 22:01:08 +0700
+
+
+Started GET "/assets/ng-app/app.self-3525dd1eaef81aa2808fc4da214de83396c553309b24d1a6bde85c47f2d00bf9.js?body=1" for 127.0.0.1 at 2015-04-26 22:01:08 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:01:11 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-844eb9160f3a4b26c0db070e8ca0838af9482818aa101fb3fff5658e01b5e44b.css?body=1" for 127.0.0.1 at 2015-04-26 22:01:11 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:02:23 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:02:26 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:03:50 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 629ms (Views: 601.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fdf63bf82ebe12f5b9aa39c16a7e5a458f0d939b947a3799c9a1830c455ec413.css?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/jquery/dist/jquery.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/angular/angular.self-8ffda33ea6b6f0dee40d4c5dca6c5096b06bf120fc448aebb9b5d9f9d2cd9a55.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/angular-rails-templates.self-0cb4b19debc640ed69cbcf42939a1289977dedf73a8d318f2db162b1f2834920.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/ng-app/app.self-3525dd1eaef81aa2808fc4da214de83396c553309b24d1a6bde85c47f2d00bf9.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/angular-animate/angular-animate.self-9aa382fa3f5dab775bb3b13b5ec46b2c1fcb9f4708433a3ed3dc547dfb378c8d.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-2215eb232f1e18b0a0c9b66db515908ff38159603f4bd9f09ae493eeccdb74b5.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/ng-app/controllers/home.self-c6f501119426abebdfc506bd9929abbd0538ce2622ff27d6c82253d5863673df.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-04-26 22:03:52 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:04:02 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:04:08 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fdf63bf82ebe12f5b9aa39c16a7e5a458f0d939b947a3799c9a1830c455ec413.css?body=1" for 127.0.0.1 at 2015-04-26 22:04:08 +0700
+
+
+Started GET "/assets/angular/angular.self-8ffda33ea6b6f0dee40d4c5dca6c5096b06bf120fc448aebb9b5d9f9d2cd9a55.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:08 +0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-2215eb232f1e18b0a0c9b66db515908ff38159603f4bd9f09ae493eeccdb74b5.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:08 +0700
+
+
+Started GET "/assets/angular-animate/angular-animate.self-9aa382fa3f5dab775bb3b13b5ec46b2c1fcb9f4708433a3ed3dc547dfb378c8d.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:08 +0700
+
+
+Started GET "/assets/jquery/dist/jquery.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:08 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:09 +0700
+
+
+Started GET "/assets/angular-rails-templates.self-0cb4b19debc640ed69cbcf42939a1289977dedf73a8d318f2db162b1f2834920.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:09 +0700
+
+
+Started GET "/assets/ng-app/app.self-3525dd1eaef81aa2808fc4da214de83396c553309b24d1a6bde85c47f2d00bf9.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:09 +0700
+
+
+Started GET "/assets/ng-app/controllers/home.self-c6f501119426abebdfc506bd9929abbd0538ce2622ff27d6c82253d5863673df.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:09 +0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-04-26 22:04:09 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:04:11 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:04:37 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:04:55 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:05:47 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fdf63bf82ebe12f5b9aa39c16a7e5a458f0d939b947a3799c9a1830c455ec413.css?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/jquery/dist/jquery.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/angular/angular.self-8ffda33ea6b6f0dee40d4c5dca6c5096b06bf120fc448aebb9b5d9f9d2cd9a55.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/angular-animate/angular-animate.self-9aa382fa3f5dab775bb3b13b5ec46b2c1fcb9f4708433a3ed3dc547dfb378c8d.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-2215eb232f1e18b0a0c9b66db515908ff38159603f4bd9f09ae493eeccdb74b5.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/angular-rails-templates.self-0cb4b19debc640ed69cbcf42939a1289977dedf73a8d318f2db162b1f2834920.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/ng-app/app.self-3525dd1eaef81aa2808fc4da214de83396c553309b24d1a6bde85c47f2d00bf9.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/ng-app/controllers/home.self-c6f501119426abebdfc506bd9929abbd0538ce2622ff27d6c82253d5863673df.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-04-26 22:06:01 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:06:12 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:06:15 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:07:10 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:07:28 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:07:39 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:07:40 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:13:37 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:13:38 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:14:05 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 391ms (Views: 390.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/controllers/home.self-00d04ba2d1118987e1f4a1cabf1c4955f9f249a31f7da5ec7ff88c3f66aa202d.js?body=1" for 127.0.0.1 at 2015-04-26 22:14:06 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:14:13 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 395ms (Views: 394.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/controllers/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-04-26 22:14:13 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-04-26 22:15:46 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"home"}
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/two" for 127.0.0.1 at 2015-04-26 22:15:53 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"two"}
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:16:00 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:19:14 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:19:16 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:20:45 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 382ms (Views: 381.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2015-04-26 22:20:46 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:20:48 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:21:06 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:26:10 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 399ms (Views: 398.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/app.self-e98f9af750104d655db5389a195b0bf3cebd35a0cba56ee6b7d225ebece89bde.js?body=1" for 127.0.0.1 at 2015-04-26 22:26:11 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:26:12 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:27:41 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /Volumes/Project/git-project/joe-rails/app/assets/images
+  /Volumes/Project/git-project/joe-rails/app/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/app/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/app/assets/templates
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/vendor/assets/stylesheets
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/angular-rails-templates-0.1.4/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /Volumes/Project/git-project/joe-rails/lib/assets/bower_components
+  /Volumes/Project/git-project/joe-rails/vendor/assets/bower_components):
+    2: <html>
+    3: <head>
+    4:   <title>JoeRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2971653511836143996_70303218979180'
+  app/controllers/application_controller.rb:7:in `index'
+
+
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.9ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (46.2ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kongrath/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (105.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:27:50 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:35:28 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 392ms (Views: 391.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/app.self-a7d44c17bde3a2dbc69f5e92f3c5df701bf73eb6c11780366b31bea56be32a38.js?body=1" for 127.0.0.1 at 2015-04-26 22:35:28 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:35:52 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-26 22:36:07 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fdf63bf82ebe12f5b9aa39c16a7e5a458f0d939b947a3799c9a1830c455ec413.css?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/jquery/dist/jquery.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/angular-rails-templates.self-0cb4b19debc640ed69cbcf42939a1289977dedf73a8d318f2db162b1f2834920.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/ng-app/app.self-e98f9af750104d655db5389a195b0bf3cebd35a0cba56ee6b7d225ebece89bde.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/angular/angular.self-8ffda33ea6b6f0dee40d4c5dca6c5096b06bf120fc448aebb9b5d9f9d2cd9a55.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/angular-animate/angular-animate.self-9aa382fa3f5dab775bb3b13b5ec46b2c1fcb9f4708433a3ed3dc547dfb378c8d.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-2215eb232f1e18b0a0c9b66db515908ff38159603f4bd9f09ae493eeccdb74b5.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/ng-app/controllers/home.self-c6f501119426abebdfc506bd9929abbd0538ce2622ff27d6c82253d5863673df.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-04-26 22:36:07 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:38:35 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:38:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:38:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:38:37 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:38:37 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:38:37 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:38:53 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:39:05 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:39:06 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:39:06 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:40:33 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:40:44 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:40:44 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:40:44 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:40:52 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:41:01 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:41:01 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:41:01 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:41:19 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:41:19 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-04-26 22:41:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"home"}
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:41:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:41:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:42:16 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:42:16 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:42:16 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:42:44 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 480ms (Views: 479.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/app.self-e53b1ff1d1cfc461dd86b0ffc54d382c2ed5cfd521d9ae439cdedfadb0ee9d9b.js?body=1" for 127.0.0.1 at 2015-04-26 22:42:44 +0700
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:42:44 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:42:51 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 403ms (Views: 402.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ng-app/app.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-04-26 22:42:52 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:43:56 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:43:56 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:43:56 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-04-26 22:49:53 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"home"}
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:49:53 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:49:53 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:51:10 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 672ms (Views: 649.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:51:11 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:51:11 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:52:35 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:52:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:52:36 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fdf63bf82ebe12f5b9aa39c16a7e5a458f0d939b947a3799c9a1830c455ec413.css?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/angular/angular.self-8ffda33ea6b6f0dee40d4c5dca6c5096b06bf120fc448aebb9b5d9f9d2cd9a55.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/jquery/dist/jquery.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-2215eb232f1e18b0a0c9b66db515908ff38159603f4bd9f09ae493eeccdb74b5.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/angular-animate/angular-animate.self-9aa382fa3f5dab775bb3b13b5ec46b2c1fcb9f4708433a3ed3dc547dfb378c8d.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/angular-rails-templates.self-0cb4b19debc640ed69cbcf42939a1289977dedf73a8d318f2db162b1f2834920.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/ng-app/app.self-e98f9af750104d655db5389a195b0bf3cebd35a0cba56ee6b7d225ebece89bde.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/ng-app/controllers/home.self-c6f501119426abebdfc506bd9929abbd0538ce2622ff27d6c82253d5863673df.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+
+
+Started GET "/navbar.html" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"navbar"}
+  Rendered application/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.html" for 127.0.0.1 at 2015-04-26 22:52:47 +0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"layout"=>0, "path"=>"home"}
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
